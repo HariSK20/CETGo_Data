@@ -11,9 +11,9 @@ Files used for our Final year project
 1. CE 1
 
 ## QGIS files
-1. 
+1. CetGo.qgz
 
 
 ## Floor Map files
-1. 
+1. MCA 0
 1. 
