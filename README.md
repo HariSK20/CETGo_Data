@@ -32,4 +32,5 @@ Files used for our Final year project
 1. CE1
 
 ## Helper files
-1. stairs.svg
+1. stairs.svg, a svg image for stairs
+1. psql_init.sh, a shell script to initialize PSQL database
