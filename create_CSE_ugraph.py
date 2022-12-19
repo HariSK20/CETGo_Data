@@ -139,7 +139,7 @@ with open('cse_cypher.cypher', 'w') as f:
 
 # connecting with the neo4j driver
 with graphDB_Driver.session() as graphDB_Session:
-	graph_nodes = graphDB_Session.run(create_nodes_and_edges[:-1])
+	graph_nodes = graphDB_Session.run(create_nodes_and_edges)
 	# checking if the nodes where returned correctly
 	res = graphDB_Session.run("MATCH(n) return n")
 	print(res)
