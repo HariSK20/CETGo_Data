@@ -2,25 +2,32 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1189mm"
-   height="841mm"
-   viewBox="0 0 4493.8584 3178.5828"
+   width="500mm"
+   height="210.78499mm"
+   viewBox="0 0 1889.7638 796.6677"
    version="1.1"
    id="svg5"
+   sodipodi:docname="eeeb.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview85"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
   <defs
-     id="defs2">
-    <linearGradient
-       id="linearGradient3202">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop3200" />
-    </linearGradient>
-  </defs>
+     id="defs2" />
   <g
-     id="layer1">
+     id="layer1"
+     transform="translate(-941.10248,-903.30706)">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.55905;stroke-dasharray:none;stroke-opacity:1"
        id="rect1787"
