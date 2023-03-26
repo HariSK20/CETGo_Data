@@ -1,5 +1,5 @@
 # for non interactive copying of data, otherwise it would try to ask for password everytime
-expot PGPASSWORD=""
+export PGPASSWORD=""
 
 # General form
 # psql -U <user> -d <dbname> -c ""
