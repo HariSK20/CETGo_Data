@@ -1,15 +1,15 @@
-dept, x, y
-cse, 8.5457768,76.9040935
-ce1, 8.5449046,76.9048293
-ce2, 8.5445939,76.9047562
-ce3, 8.5442753,76.9048730
-ce4, 8.5436463,76.9046418
-ie, 8.5447185,76.9064773
-arch, 8.54561966,76.90528407
-mca,8.5459691,76.9047178
-me , 8.5459479,76.9061959
-me_pg, 8.5462796,76.9071249
-eee_pg, 8.5466527,76.9074710
-eee, 8.5453759,76.9073141
-ec, 8.5452215,76.9056114
-ec2, 8.5446200,76.9051070
+dept, x, y, name
+cse, 76.9040935, 8.5457768, Computer Science and Engineering
+ce1, 76.9048293, 8.5449046, Civil Engineering
+ce2, 76.9047562, 8.5445939, Civil Engineering
+ce3, 76.9048730, 8.5442753, Civil Engineering
+ce4, 76.9046418, 8.5436463, Civil Engineering
+ie, 76.9064773, 8.5447185, Industrial Engineering
+arch, 76.90528407,8.54561966, Architecture 
+mca, 76.9047178, 8.5459691, Master of Computer Applications
+me, 76.9061959, 8.5459479, Mechanical Engineering Administrative Block
+me_pg, 76.9071249, 8.5462796, Mechanical Post Graduate Department
+eee_pg, 76.9074710, 8.5466527, Electrical and Electronics Engineering Post Graduate
+eee, 76.9073141, 8.5453759, Electrical and Electronics Engineering
+ec, 76.9056114, 8.5452215, Electronics and Communication Engineering
+ec2, 76.9051070, 8.5446200, Electronics and Communication Engineering
