@@ -26,7 +26,7 @@ graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
 
 
 # read nodes from csv file
-f = open("cse_floor_points.csv", "r")
+f = open("cse.csv", "r")
 nodes = []
 for i in f.readlines():
 	e = i.replace('"', '').replace('\t', '').split(',')
@@ -134,7 +134,7 @@ create_nodes_and_edges = create_nodes_and_edges + create_nodes_and_edges5[:-2] +
 print(create_nodes_and_edges)
 
 # writing to a file for later use 
-with open('cse_cypher.cypher', 'w') as f:
+with open('cse.cypher', 'w') as f:
 	f.write(create_nodes_and_edges)
 
 # connecting with the neo4j driver
