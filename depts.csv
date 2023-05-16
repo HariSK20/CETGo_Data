@@ -1,15 +1,38 @@
 dept, x, y, name
 cse, 76.9040935, 8.5457768, Computer Science and Engineering
 ce1, 76.9048293, 8.5449046, Civil Engineering
-ce2, 76.9047562, 8.5445939, Civil Engineering
-ce3, 76.9048730, 8.5442753, Civil Engineering
+ce2, 76.9047562, 8.5445939, Civil Engineering (Traffic and Transportation Engineering Block)
+ce3, 76.9048730, 8.5442753, Civil Engineering (Environmental Engineering Block)
 ce4, 76.9046418, 8.5436463, Civil Engineering
 ie, 76.9064773, 8.5447185, Industrial Engineering
 arch, 76.90528407,8.54561966, Architecture 
 mca, 76.9047178, 8.5459691, Master of Computer Applications
 me, 76.9061959, 8.5459479, Mechanical Engineering Administrative Block
 me_pg, 76.9071249, 8.5462796, Mechanical Post Graduate Department
-eee_pg, 76.9074710, 8.5466527, Electrical and Electronics Engineering Post Graduate
+eee_pg,76.9074710, 8.5466527, Electrical and Electronics Engineering Post Graduate
 eee, 76.9073141, 8.5453759, Electrical and Electronics Engineering
 ec, 76.9056114, 8.5452215, Electronics and Communication Engineering
 ec2, 76.9051070, 8.5446200, Electronics and Communication Engineering
+Adm, 76.90623, 8.54592, Main Building  
+gld-wlk, 76.90604, 8.54616, Golden Walkway
+Clg_front,76.90565, 8.54666, College Front
+bike, 76.90603, 8.54703, Bike Bay
+CGPU, 76.90574, 8.54545, Career Guidance and Placement Unit
+CCF, 76.90593, 8.54536, Cental Computing Facility
+work, 76.90573, 8.54437, Workshops
+canteen,76.90717, 8.54515, College Canteen
+store, 76.90675, 8.54546, Cooperative Store
+lib, 76.9066 , 8.54545, Library
+sargam, 76.90668, 8.54588, Sargam Stage
+dhwani, 76.90409, 8.54525, Dhwani Stage
+dj, 76.90312, 8.54514, Diamond Jubilee Hall
+ground, 76.90414, 8.54449, College Ground
+pe, 76.90382, 8.54473, Physical Education Department
+basketball, 76.90383, 8.5451,  Basketball Court
+treasure,76.90696, 8.54609, Treasury
+ce_circle, 76.90465, 8.5449,  Civil Circle
+planet,76.90454, 8.54474, Planetarium
+ce_canteen, 76.9047 , 8.54467, Civil Canteen
+lac, 76.90629, 8.54525, Ladies amenity centre 
+lh, 76.90679, 8.54715, Ladies Hostel
+mh, 76.90359, 8.54312, Mens Hostel
