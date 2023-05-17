@@ -17,17 +17,18 @@ pwd = config["NEO4J_PASSWORD"]
 graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
 
 # writing to a file for later use 
-for i in ['cse', 'ce1', 'mca']:
-	r = ""
-	with open('{}.cypher'.format(i), 'r') as f:
-		r = f.read()
-	# print(r)
-	# connecting with the neo4j driver
-	with graphDB_Driver.session() as graphDB_Session:
-		graph_nodes = graphDB_Session.run(r)
-		# checking if the nodes where returned correctly
+
+with graphDB_Driver.session() as graphDB_Session:
+	graphDB_Session.run("MATCH(n) DETACH DELETE n")
+	for i in ['cse', 'ce1', 'mca']:
+		r = ""
+		with open('{}.cypher'.format(i), 'r') as f:
+			r = f.read()
+			# print(r)
+			# connecting with the neo4j driver		
+			graph_nodes = graphDB_Session.run(r)
+			# checking if the nodes where returned correctly
 		res = graphDB_Session.run("MATCH(n) return n")
 		print(res)
-
 
 graphDB_Driver.close()
