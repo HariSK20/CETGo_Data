@@ -44,8 +44,8 @@ with graphDB_Driver.session() as graphDB_Session:
 	# 	query=summary.query, records_count=len(records),
 	# 	time=summary.result_available_after
 	# ))
-	print(" Nodes created: ", res.consume().counters.nodes_returned)
-	print(" Edges created: ", res.consume().counters.relationships_returned)
+	# print(" Nodes created: ", res.consume().counters.nodes_returned)
+	# print(" Edges created: ", res.consume().counters.relationships_returned)
 
 graphDB_Driver.close()
 print(" Done !")

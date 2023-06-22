@@ -63,8 +63,8 @@ create_nodes_and_edges = "CREATE"
 # for i in nodes[:2]:
 # 	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":purifier { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
 
-for i in nodes[2:]:
-	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":room { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
+for (j, i) in enumerate(nodes[2:], 2):
+	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + (":stairs" if(j in [2, 8, 10, 15, 20, 25, 31, 36]) else ":room")  + " { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
 
 # for i in nodes[-6:]:
 # 	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":stairs { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
@@ -92,11 +92,11 @@ create_nodes_and_edges = create_nodes_and_edges + create_nodes_and_edges1 + crea
 
 # create relationships for stairs
 create_nodes_and_edges5 = connect("", nodes, 2, 10)
-create_nodes_and_edges5 = connect("", nodes, 10, 20)
-create_nodes_and_edges5 = connect("", nodes, 20, 31)
-create_nodes_and_edges5 = connect("", nodes, 8, 15)
-create_nodes_and_edges5 = connect("", nodes, 15, 25)
-create_nodes_and_edges5 = connect("", nodes, 25, 36)
+create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 10, 20)
+create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 20, 31)
+create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 8, 15)
+create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 15, 25)
+create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 25, 36)
 
 # # Adding water purifiers
 
