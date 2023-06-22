@@ -20,7 +20,7 @@ graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
 
 with graphDB_Driver.session() as graphDB_Session:
 	graphDB_Session.run("MATCH(n) DETACH DELETE n")
-	for i in ['cse', 'ce1', 'mca']:
+	for i in ['cse', 'ce1', 'mca', 'eee']:
 		r = ""
 		with open('{}.cypher'.format(i), 'r') as f:
 			r = f.read()

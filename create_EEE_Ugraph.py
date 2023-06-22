@@ -63,32 +63,40 @@ create_nodes_and_edges = "CREATE"
 # for i in nodes[:2]:
 # 	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":purifier { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
 
-for i in nodes[1:]:
+for i in nodes[2:]:
 	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":room { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
 
 # for i in nodes[-6:]:
 # 	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":stairs { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
 
 # create relationships for floor -1
-create_nodes_and_edges1 = create_straight_line((nodes[1:8]))
+create_nodes_and_edges1 = create_straight_line((nodes[2:10]))
 
 # create relationships for floor 0
-create_nodes_and_edges2 = create_circular_relationship(nodes[8:16])
+create_nodes_and_edges2 = create_circular_relationship(nodes[10:20])
+create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, 13, 19)
 # print(create_nodes_and_edges2)
 
 #create relationships for floor 1
-create_nodes_and_edges3 = create_circular_relationship(nodes[16:25])
+create_nodes_and_edges3 = create_circular_relationship(nodes[20:31])
+create_nodes_and_edges3 = connect(create_nodes_and_edges3, nodes, 23, 29) 
 # print(create_nodes_and_edges3)
 
 # create relationships for floor 2
-create_nodes_and_edges4 = create_circular_relationship(nodes[25:33])
+create_nodes_and_edges4 = create_circular_relationship(nodes[31:42])
+create_nodes_and_edges4	= connect(create_nodes_and_edges4, nodes, 34, 40)
 # print(create_nodes_and_edges4)
 
 create_nodes_and_edges = create_nodes_and_edges + create_nodes_and_edges1 + create_nodes_and_edges2 + create_nodes_and_edges3 + create_nodes_and_edges4
 
 
 # create relationships for stairs
-create_nodes_and_edges5 = ""
+create_nodes_and_edges5 = connect("", nodes, 2, 10)
+create_nodes_and_edges5 = connect("", nodes, 10, 20)
+create_nodes_and_edges5 = connect("", nodes, 20, 31)
+create_nodes_and_edges5 = connect("", nodes, 8, 15)
+create_nodes_and_edges5 = connect("", nodes, 15, 25)
+create_nodes_and_edges5 = connect("", nodes, 25, 36)
 
 # # Adding water purifiers
 
