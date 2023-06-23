@@ -14,7 +14,7 @@ pwd = config["NEO4J_PASSWORD"]
 # uri_to_server = ""
 # pwd = ""
 
-departments = ['cse', 'ce1', 'mca', 'eee', 'me']
+departments = ['cse', 'ce1', 'mca', 'eee', 'me', 'me_nb']
 graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
 
 # writing to a file for later use 
