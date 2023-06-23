@@ -3,9 +3,6 @@
 import math
 
 # credentials here to connect to database
-# usr = ""
-# uri_to_server = ""
-# pwd = ""
 dept = "cse"
 
 # to find distance between nodes
@@ -35,7 +32,6 @@ def create_circular_relationship(l):
 		# connect(create_nodes_and_edges2, l, (i+1)%len(l), i)
 	return(create_nodes_and_edges2)
 
-
 # graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
 
 
@@ -43,7 +39,8 @@ def create_circular_relationship(l):
 f = open("{}.csv".format(dept), "r")
 nodes = []
 for i in f.readlines():
-	e = i.replace('"', '').replace('\t', '').split(',')
+	e = i.replace('"', '').replace('\t', '').replace('\n', '').split(',')
+	# print(e)
 	try:
 		nodes.append([e[0].strip(), float(e[1].strip()), float(e[2].strip()), int(e[3].strip()), "filter" if(len(e[4].strip()) == 0) else e[4].strip()])
 	except Exception as ex:
@@ -52,6 +49,7 @@ for i in f.readlines():
 		nodes = []
 		pass 
 
+# print(nodes)
 if(nodes == []):
 	raise SystemExit(0)
 nodes.insert(0, ["padding"])
@@ -60,7 +58,6 @@ nodes.insert(0, ["padding"])
 # print(nodes)
 f.close()
 print(len(nodes))
-# print(nodes)
 
 # Starting the create query
 create_nodes_and_edges = "CREATE"
@@ -68,8 +65,8 @@ create_nodes_and_edges = "CREATE"
 # for i in nodes[:2]:
 # 	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":purifier { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
 
-for i in nodes[2:51+1]:
-	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":room { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
+for j, i in enumerate(nodes[2:51+1], 2):
+	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + (":junction " if j in [9, 15, 27, 33] else":room") +" { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
 
 for i in nodes[52:57+1]:
 	create_nodes_and_edges = create_nodes_and_edges + " (" + i[0] + ":stairs { " +  'id: "{0}", desc: "{1}"'.format(i[0], i[4]) + "}),\n"
@@ -91,6 +88,9 @@ create_nodes_and_edges5 = ""
 create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 9, 47)
 create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 15, 48)
 create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 15, 49)
+create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 27, 50)
+create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 33, 51)
+
 # stairs
 create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 52, 9)
 create_nodes_and_edges5 = connect(create_nodes_and_edges5, nodes, 52, 27)
