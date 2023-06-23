@@ -14,6 +14,7 @@ pwd = config["NEO4J_PASSWORD"]
 # uri_to_server = ""
 # pwd = ""
 
+departments = ['cse', 'ce1', 'mca', 'eee', 'me']
 graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
 
 # writing to a file for later use 
@@ -24,7 +25,7 @@ with graphDB_Driver.session() as graphDB_Session:
 	print(" \t Nodes removed: ", res.consume().counters.nodes_deleted)
 	print(" \t Edges removed: ", res.consume().counters.relationships_deleted)
 	print(" Creating Departments in Neo4J: ")
-	for i in ['cse', 'ce1', 'mca', 'eee']:
+	for i in departments:
 		r = ""
 		with open('{}.cypher'.format(i), 'r') as f:
 			r = f.read()
