@@ -28,7 +28,7 @@ done
 
 for i in ec1 ec2 me
 do
-	psql -U $psql_USERNAME -d $psql_DBNAME -c "CREATE TABLE $i(id varchar primary key, X varchar, Y varchar, Z varchar, val varchar);"
+	psql -U $psql_USERNAME -d $psql_DBNAME -c "CREATE TABLE $i(id varchar primary key, X varchar, Y varchar, Z varchar, val varchar, Fx varchar, Fy varchar);"
 	psql -U $psql_USERNAME -d $psql_DBNAME -c "\copy $i(id, X, Y, Z, val) FROM '$i.csv' DELIMITER ',' CSV HEADER;"
 done
 
