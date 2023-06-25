@@ -3,7 +3,7 @@
 import math
 
 # credentials here to connect to database
-dept = "me"
+dept = "me1"
 
 # to find distance between nodes
 def eucledian_dist(x, y):

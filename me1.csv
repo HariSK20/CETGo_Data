@@ -1,0 +1,106 @@
+id , x, y, z, val, fx, fy
+A110,		76.90586504, 8.54522090, 0, CTSE, 0, 0
+A109,		76.90597108, 8.54529687, 0, Central Computing Facility (CCF), 0, 0
+A108,		76.90598394, 8.54542545, 0, Central Computing Facility (CCF), 0, 0
+A1S3, 		76.90590388, 8.54549897, 0, Stairs S, 0, 0
+A107,		76.90587546, 8.54556159, 0, Guidance Counselling Room, 0, 0
+A106,		76.90592715, 8.54559436, 0, Conference room, 0, 0
+A105,		76.90597624, 8.54563237, 0, College union office, 0, 0
+A104,		76.90602181, 8.54566518, 0, Lecture  hall, 0, 0
+A103,		76.90613055, 8.54575852, 0, Sree Chithirathirunal Centre for Computing - C CUBE, 0, 0
+A1_GT0,		76.90622410, 8.54569330, 0, Gents toilet, 0, 0
+pro,		76.90630349, 8.54567726, 0, P.R.O, 0, 0
+A1S2, 		76.90628682, 8.54578111, 0, Center stair, 0, 0
+srgnt,		76.90638587, 8.54573727, 0, Sergeant room, 0, 0
+jntr,		76.90637924, 8.54580691, 0, Janitors room, 0, 0
+A116B,		76.90632450, 8.54586448, 0, Internal Quality Assurance Cell (IQAC), 0, 0
+db_rm,		76.90640028, 8.54582542, 0, DB room, 0, 0
+A117,		76.90640968, 8.54596054, 0, Mechanical seminar hall, 0, 0
+A118,		76.90650171, 8.54602832, 0, Fluid dynamics lab, 0, 0
+A119,		76.90655824, 8.54606934, 0, Hostel office, 0, 0
+medical,	76.90661871, 8.54611293, 0, NSS IPRC Doctor, 0, 0
+cetaa, 		76.90670571, 8.54625746, 0, CET Alumni Association (CETAA) Hall, 0, 0
+A1S1, 		76.90669821, 8.54608508, 0, Stairs N,0, 0
+Chem_staff,	76.90674039, 8.54598825, 0, Dept. of Chemistry staff room, 0, 0
+A123,		76.90685444, 8.54598145, 0, Chemistry lab, 0, 0
+A124,		76.90691008, 8.54613337, 0, Staff club/Blood donation, 0, 0
+CGPU_Hll,	76.90570172, 8.54556853, 0, Career Guidance Placement Unit Hall, 0, 0
+CGPU_crd,	76.90569933, 8.54543902, 0, Placement Co-ordinator, 0, 0
+CGPU_rcp,	76.90576683, 8.54549084, 0, Career Guidance Placement Unit Reception, 0, 0
+A116A,		76.90628238, 8.54591119, 0, Parent Teacher Association (PTA) office, 0, 0
+ATM,		76.90615672, 8.54584140, 0, ATM, 0, 0
+Chem_HOD,	76.90676007, 8.54592572, 0, Department of Chemistry HOD room, 0, 0
+store,		76.90679556, 8.54588691, 0, store, 0, 0
+A215,		76.90579709, 8.54527768, 1, UG Dean, 0, 0
+A214,		76.90585031, 8.54521923, 1, Conference room, 0, 0
+A213,		76.90591066, 8.54526811, 1, Office of Deans, 0, 0
+A212,		76.90596930, 8.54530552, 1, CCIR, 0, 0
+A2S3, 		76.90590388, 8.54549897, 1, Stairs S, 0, 0
+A206,		76.90587672, 8.54556249, 1, CET-TBI, 0, 0
+A205,		76.90593615, 8.54559415, 1, CET-TBI Incubation space, 0, 0
+A204,		76.90599897, 8.54564384, 1, Innovation center, 0, 0
+A203,		76.90606676, 8.54570005, 1, Record room, 0, 0
+A202,		76.90613367, 8.54574398, 1, KTU valuation camp, 0, 0
+A2_LT,		76.90623464, 8.54568365, 1, Ladies toilet, 0, 0
+A2_wait,	76.90626736, 8.54580642, 1, Waiting room (Principals office), 0, 0
+A201,		76.90632032, 8.54586189, 1, C/A TO Principal, 0, 0
+A2_GT,		76.90639416, 8.54580908, 1, Gents toilet, 0, 0
+A216,		76.90639238, 8.54594759, 1, Main office, 0, 0
+A217,		76.90647336, 8.54600783, 1, ITC & SR CCE, 0, 0
+A218,		76.90653613, 8.54604768, 1, Office of evening degree courses, 0, 0
+A219,		76.90659562, 8.54609000, 1, University examination cell, 0, 0
+A220,		76.90664434, 8.54612205, 1, Exam store, 0, 0
+A2S1, 		76.90669821, 8.54608508, 1, Stairs N,0, 0
+A222,		76.90673255, 8.54597787, 1, Mechanical HOD Staff room, 0, 0
+A_PhyLab,	76.90685613, 8.54599284, 1, Physics lab, 0, 0
+A_PhyStff,	76.90691230, 8.54603190, 1, Staff room, 0, 0
+A_PhyStr,	76.90695942, 8.54607018, 1, Store, 0, 0
+A_PhyHOD,	76.90690822, 8.54613241, 1, Physics HOD Staff room, 0, 0
+A201B,		76.90619891, 8.54578381, 1, Conference room, 0, 0
+A2_Prncpl,	76.90622399, 8.54586155, 1, Principals office, 0, 0
+A2_AA,		76.90627451, 8.5459203,  1, AAs office, 0, 0
+A207,		76.90568997, 8.54542490, 1, Staff room, 0, 0
+A2_s2,		76.90594678, 8.54541299, 1, Staff room, 0, 0
+A209,		76.90600280, 8.54541927, 1, PG Dean, 0, 0
+A210,		76.90604695, 8.54535840, 1, Room, 0, 0
+A211,		76.90607969, 8.54531890, 1, Technical officer, 0, 0
+A221,		76.90679816, 8.54625701, 1, Staff room, 0, 0
+A223,		76.90677590, 8.54591865, 1, Room, 0, 0
+A224,		76.90679881, 8.54588986, 1, Staff amenity, 0, 0
+A2S2, 		76.90628682, 8.54578111, 1, Center stair, 0, 0
+A3_DRsch,	76.90579709, 8.54527768, 2, Dean research, 0, 0
+A316,		76.90585031, 8.54521923, 2, Conference room, 0, 0
+A315,		76.90594121, 8.54528695, 2, Office of deans, 0, 0
+A314,		76.90594121, 8.54528695, 2, Office of deans,0, 0
+A3S3, 		76.90590388, 8.54549897, 2, Stairs S, 0, 0
+A308,		76.90587902, 8.54555038, 2, Classroom, 0, 0
+A307,		76.90594246, 8.54560290, 2, Classroom, 0, 0
+A306,		76.90600688, 8.54565038, 2, Classroom, 0, 0
+A305,		76.90606728, 8.54569939, 2, Classroom, 0, 0
+A304,		76.90613423, 8.54574685, 2, Classroom, 0, 0
+A303,		76.90619512, 8.54579485, 2, Classroom, 0, 0
+A3_GT,		76.90623862, 8.54569879, 2, Gents toilet, 0, 0
+A3S2, 76.90628682, 8.54578111, 2, Center stair, 0, 0
+A320,		76.90632259, 8.54589461, 2, Classroom, 0, 0
+A321,		76.90638612, 8.54594031, 2, Classroom, 0, 0
+A322,		76.90644750, 8.54598532, 2, Classroom, 0, 0
+A323,		76.90654958, 8.54605986, 2, Classroom, 0, 0
+A324,		76.90663456, 8.54612953, 2, Classroom, 0, 0
+A3S1, 76.90669821, 8.54608508, 2, Stairs N,0, 0
+A331,		76.90684757, 8.54598724, 2, Classroom, 0, 0
+A332,		76.90689503, 8.54602028, 2, Classroom, 0, 0
+A333,		76.90695070, 8.54606036, 2, Classroom, 0, 0
+A334,		76.90690334, 8.54612006, 2, Classroom, 0, 0
+A309,		76.90568997, 8.54542490, 2, Ministerial staff club, 0, 0
+A310,		76.90571074, 8.54556489, 2, Exam hall, 0, 0
+A3_Str,		76.90573517, 8.54547132, 2, Store, 0, 0
+A313,		76.90595681, 8.54542138, 2, Room, 0, 0
+A312,		76.90600280, 8.54541927, 2, Dean student affairs, 0, 0
+A311,		76.90607969, 8.54531890, 2, Dean international affairs, 0, 0
+A325,		76.90674742, 8.54622808, 2, Bus Secretary, 0, 0
+A327,		76.90680092, 8.54626109, 2, Staff room, 0, 0
+A328,		76.90673827, 8.54603309, 2, Staff room, 0, 0
+A329,		76.90672731, 8.54597438, 2, Staff room, 0, 0
+A330,		76.90678313, 8.54590190, 2, Staff room, 0, 0
+A326,		76.90665173, 8.54629298, 2, Exam hall, 0, 0
+A301,		76.9062402,  8.5458739,  2, Classroom, 0, 0
