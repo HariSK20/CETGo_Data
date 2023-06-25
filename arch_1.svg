@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1189mm"
-   height="841mm"
-   viewBox="0 0 4493.8584 3178.5828"
+   width="483.56152mm"
+   height="599.39221mm"
+   viewBox="0 0 1827.6342 2265.4195"
    version="1.1"
    id="svg5"
    xml:space="preserve"
@@ -34,14 +34,15 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1-5" /><defs
      id="defs2"><rect
-       x="1822.4538"
+       x="1822.4539"
        y="1893.3696"
-       width="85.600546"
+       width="85.600548"
        height="34.767914"
        id="rect13385" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><g
+     id="layer1"
+     transform="translate(-1294.1705,-291.97803)"><g
        inkscape:label="Layer 1"
        id="layer1-5"
        transform="translate(409.43366,-208.34079)"><rect
@@ -936,7 +937,7 @@
          xml:space="preserve"
          transform="translate(-409.43366,208.34079)"
          id="text13383"
-         style="fill:#ffffff;stroke:#010101;stroke-width:7.55905512;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-size:18.66666667px;text-align:center;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1;white-space:pre;shape-inside:url(#rect13385)" /><rect
+         style="font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;white-space:pre;shape-inside:url(#rect13385);fill:#ffffff;fill-opacity:1;stroke:#010101;stroke-width:7.55906;stroke-dasharray:none;stroke-opacity:1" /><rect
          style="fill:#ffffff;fill-opacity:1;stroke:#010101;stroke-width:7.55906;stroke-dasharray:none;stroke-opacity:1"
          id="rect16297"
          width="62.201508"
