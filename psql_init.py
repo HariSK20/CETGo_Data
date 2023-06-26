@@ -2,7 +2,7 @@ import psycopg2 as psql
 from dotenv import dotenv_values
 import getpass
 
-depts = ['cse', 'mca', 'ce1', 'ec1', 'ec2', 'me1', 'me2', 'eee']
+depts = ['cse', 'mca', 'ce1', 'ec1', 'ec2', 'me1', 'me2', 'eee', 'ce2', 'arch']
 
 # get credentials
 config = dict(dotenv_values("../cred.env"))

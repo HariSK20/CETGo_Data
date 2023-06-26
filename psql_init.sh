@@ -14,6 +14,7 @@ psql_DBNAME="cet_go_db"
 sudo -u postgres psql -c "create user $psql_USERNAME2 with login password '$PGPASSWORD';"
 sudo -u postgres createdb $psql_DBNAME
 sudo -u postgres psql -c "GRANT SELECT ON ALL TABLES IN SCHEMA public TO $psql_USERNAME2";
+# sudo -u postgres psql -c "create user $psql_USERNAME2 with login password '$PGPASSWORD';"
 # sudo -u postgres psql -c "ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO Read_Only_User;"
 # add data from csv
 
