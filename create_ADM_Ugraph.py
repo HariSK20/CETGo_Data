@@ -81,6 +81,8 @@ create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, 33, 32)
 for i in [10, 30, 31, 16, 13]:
 	for j in [10, 30, 31, 16, 13]:
 		create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, i, j)
+create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, 107, 31)
+create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, 107, 30)
 # create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, , )
 
 # create relationships for floor 1

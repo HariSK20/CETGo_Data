@@ -95,6 +95,8 @@ create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, 56, 38)
 create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, 62, 37)
 create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, 63, 45)
 
+# create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, 63, 45)
+# create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, 63, 45)
 # print(create_nodes_and_edges2)
 
 

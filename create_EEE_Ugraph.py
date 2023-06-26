@@ -80,6 +80,7 @@ create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, 13, 19)
 #create relationships for floor 1
 create_nodes_and_edges3 = create_circular_relationship(nodes[20:31])
 create_nodes_and_edges3 = connect(create_nodes_and_edges3, nodes, 23, 29) 
+create_nodes_and_edges3 = connect(create_nodes_and_edges3, nodes, 42, 2) 
 # print(create_nodes_and_edges3)
 
 # create relationships for floor 2

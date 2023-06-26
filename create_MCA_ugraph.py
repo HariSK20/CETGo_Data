@@ -31,7 +31,7 @@ def create_circular_relationship(l, create_nodes_and_edges2 = ""):
 	return(create_nodes_and_edges2)
 
 
-graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
+# graphDB_Driver  = GraphDatabase.driver(uri_to_server, auth=(usr, pwd))
 
 
 # read nodes from csv file
@@ -79,6 +79,8 @@ create_nodes_and_edges0 = add_neighbor_path(2, 4, create_nodes_and_edges0)
 
 #create relationships for floor 1
 create_nodes_and_edges1 = add_neighbor_path(5, 6)
+create_nodes_and_edges1 = add_neighbor_path(27, 1)
+create_nodes_and_edges1 = add_neighbor_path(27, 2)
 # open terrace is connected to many rooms
 for i in [6, 7, 8, 10]:
 	create_nodes_and_edges1 = add_neighbor_path(9, i, create_nodes_and_edges1)

@@ -80,6 +80,8 @@ create_nodes_and_edges1 = create_circular_relationship((nodes[2:10]))
 create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, 10, 9)
 create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, 10, 11)
 create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, 12, 4)
+create_nodes_and_edges1 = connect(create_nodes_and_edges1, nodes, 35, 4)
+
 # create_nodes_and_edges2 = connect(create_nodes_and_edges2, nodes, , )
 
 # create relationships for floor 1
