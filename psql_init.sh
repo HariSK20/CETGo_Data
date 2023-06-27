@@ -22,7 +22,7 @@ sudo -u postgres psql -c "GRANT SELECT ON ALL TABLES IN SCHEMA public TO $psql_U
 psql -U $psql_USERNAME2 -d $psql_DBNAME -c "CREATE TABLE depts(id varchar primary key, X varchar, Y varchar, name varchar);"
 psql -U $psql_USERNAME2 -d $psql_DBNAME -c "\copy depts(id, X, Y, name) FROM 'depts.csv' DELIMITER ',' CSV HEADER;"
 
-for i in cse mca ce1 eee me1 ec1 ec2 me2
+for i in cse mca ce1 eee me1 ec1 ec2 me2 ce2 arch
 do
 	psql -U $psql_USERNAME2 -d $psql_DBNAME -c "CREATE TABLE $i(id varchar primary key, X varchar, Y varchar, Z varchar, val varchar, Fx varchar, Fy varchar);"
 	psql -U $psql_USERNAME2 -d $psql_DBNAME -c "\copy $i(id, X, Y, Z, val, Fx, Fy) FROM '$i.csv' DELIMITER ',' CSV HEADER;"
